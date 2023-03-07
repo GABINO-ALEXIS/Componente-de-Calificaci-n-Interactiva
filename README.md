@@ -1,40 +1,40 @@
-# Frontend Mentor - Interactive rating component solution
-(./desktop-design.jpg)
+# Frontend Mentor - Componente de Calificación Interactiva
+![](./design/desktop-design.jpg)
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Esta es una solución al [Desafío del componente de calificación interactivo en Frontend Mentor](). Los desafíos de Frontend Mentor lo ayudan a mejorar sus habilidades de codificación mediante la creación de proyectos realistas.
 
-## Table of contents
+## Tabla de contenido
 
-  - [The challenge](#the-challenge)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
+   - [El reto](#el-reto)
+   - [Construido con](#construido-con)
+   - [Que aprendí](#que-aprendí)
+- [Autor](#autor)
 
-### The challenge
+### El reto
 
-Users should be able to:
+Los usuarios deben ser capaces de:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+- Ver el diseño óptimo para la aplicación según el tamaño de pantalla de su dispositivo
+- Ver estados de desplazamiento para todos los elementos interactivos en la página
+- Seleccione y envíe una calificación numérica
+- Ver el estado de la tarjeta "Gracias" después de enviar una calificación
 
-### Built with
+### Construido con
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Marcado HTML5 semántico
+- Propiedades personalizadas de CSS
+- Caja flexible
+- Cuadrícula CSS
+- Flujo de trabajo móvil primero
+- [Reaccionar](https://reactjs.org/) - Biblioteca JS
+- [Next.js](https://nextjs.org/) - Marco de reacción
+- [Componentes con estilo](https://styled-components.com/) - Para estilos
 
-### What I learned
+### Que aprendí
 
 Aprendi a reforzar mis conocimientos relizando este desafio
 
-## Author
+## Autor
 
-- Website - [GABINO-ALEXIS]
-- Frontend Mentor - [GABINO-ALEXIS](https://www.frontendmentor.io/profile/GABINO-ALEXIS)
+- Sitio web - GABINO-ALEXIS
+- Mentor de interfaz - [GABINO-ALEXIS](https://www.frontendmentor.io/profile/GABINO-ALEXIS)
