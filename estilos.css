@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+}
+#contenedor {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#componente {
+    width: 330px;
+    height: 328px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    border-radius: 30px;
+
+}
+.estrella {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: hsl(210, 21%, 23%);
+}
+.texto h2 {
+    margin: 30px 0px 10px 0px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+.texto p {
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+}
+.numeros {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.numeros li {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 21%, 23%);;
+    font-weight: 700;
+    color: hsl(217, 12%, 63%);
+}
+#boton {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    width: 100%;
+    padding: 10px 0px;
+    font-weight: 700;
+    border-radius: 50px;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.numeros li:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: #fff;
+}
+#boton:active {
+    background-color: #ffff;
+    color: hsl(25, 97%, 53%);
+}
+
+/* estado de enviado */
+
+#enviado {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: none;
+}
+#enviado svg{
+    margin-top: 13px;
+}
+#mensaje {
+    padding: 4px 15px;
+    text-align: center;
+    border-radius: 20px;
+    color: hsl(25, 86%, 47%);
+    background-color: hsl(210, 21%, 23%);
+    margin: 30px 0px 30px 0px;
+}
+#titulo2 {
+    color: #ffff;
+    width: 100%;
+    text-align: center;
+}
+#parrafo {
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    text-align: center;
+    margin: 12px 0px 20px 0px;
+}
+#advertencia {
+    text-align: center;
+    margin: 60px 0px;
+    width: 100%;
+    color: #ffff;
+}
+.advertencianone {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    #contenedor {
+      padding: 0px 30px;
+      box-sizing: border-box;
+    }
+  }
